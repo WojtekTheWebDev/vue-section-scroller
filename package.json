@@ -1,7 +1,15 @@
 {
   "name": "vue-section-scroller",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.10",
+  "private": false,
+  "license": "MIT",
+  "author": "Wojciech Sikora <kontakt@sikorawojciech.pl> (https://sikorawojciech.pl)",
+  "description": "Vue.js component for switching sections with scrolling and swiping (for mobile)",
+  "homepage": "https://github.com/SikoraWojciech/vue-section-scroller",
+  "bugs": {
+    "url": "https://github.com/SikoraWojciech/vue-section-scroller/issues",
+    "email": "kontakt@sikorawojciech.pl"
+  },
   "main": "dist/vue-section-scroller.ssr.js",
   "browser": "dist/vue-section-scroller.esm.js",
   "module": "dist/vue-section-scroller.esm.js",
@@ -10,6 +18,7 @@
   "files": [
     "dist/*",
     "vue-section-scroller.d.ts",
+    "src/types/*",
     "src/**/*.vue"
   ],
   "sideEffects": false,
