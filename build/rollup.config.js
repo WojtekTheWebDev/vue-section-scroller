@@ -8,6 +8,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import replace from '@rollup/plugin-replace';
 import babel from '@rollup/plugin-babel';
 import PostCSS from 'rollup-plugin-postcss';
+import scss from "rollup-plugin-scss";
 import { terser } from 'rollup-plugin-terser';
 import minimist from 'minimist';
 
@@ -47,6 +48,7 @@ const baseConfig = {
       resolve({
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.vue'],
       }),
+      scss({ output: "./dist/vue-section-scroller.css" }),
       // Process only `<style module>` blocks.
       PostCSS({
         modules: {
