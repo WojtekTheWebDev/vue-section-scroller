@@ -10,6 +10,16 @@
     "url": "https://github.com/SikoraWojciech/vue-section-scroller/issues",
     "email": "kontakt@sikorawojciech.pl"
   },
+  "keywords": [
+    "vue",
+    "vue3",
+    "typescript",
+    "gsap",
+    "scss",
+    "sfc",
+    "rollup",
+    "vue-sfc-rollup"
+  ],
   "main": "dist/vue-section-scroller.ssr.js",
   "browser": "dist/vue-section-scroller.esm.js",
   "module": "dist/vue-section-scroller.esm.js",
