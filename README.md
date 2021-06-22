@@ -103,4 +103,4 @@ Like documentation, will be here soon.
 Thanks to [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup) for the SFC template ready to publish. I wish I had known this before.
 
 ## License
-MIT
+[MIT License](https://github.com/SikoraWojciech/vue-section-scroller/blob/master/LICENSE)
