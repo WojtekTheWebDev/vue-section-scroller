@@ -91,10 +91,6 @@ export default {
 | activeColor  | String    | "#323330" | Color of active dots and labels.  |
 | showChevrons | Boolean   | true      | Show chevrons at the top and bottom of the component. |
 
-## Documentation
-
-Will be here someday made with VuePress.
-
 ## Live Demo
 
 https://codesandbox.io/s/vue-section-scroller-demo-tsyzd
