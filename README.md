@@ -70,7 +70,7 @@ export default {
       },
       // rest of the sections
     ]
-  });
+  })
 }
 
 ```
@@ -97,7 +97,7 @@ Will be here someday made with VuePress.
 
 ## Live Demo
 
-Like documentation, will be here soon.
+https://codesandbox.io/s/vue-section-scroller-demo-tsyzd
 
 ## Credits
 Thanks to [vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup) for the SFC template ready to publish. I wish I had known this before.
