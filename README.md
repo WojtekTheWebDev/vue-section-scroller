@@ -54,25 +54,6 @@ import Section from 'vue-section-scroller/src/types/Section';
         // other returns
       };
   }
-
-// ---------------------------------------------------------------------------------------
-
-/* Vue 2 */
-export default {
-  data: () => ({
-    sections: [
-      {
-        id: 1, // Unique identifier
-        label: "Component label", // Label displayed in the aside
-        component: SomeComponent, // Component displayed in the section
-        props: { // Component props, should be an object with key - value pairs.
-        },
-      },
-      // rest of the sections
-    ]
-  })
-}
-
 ```
 ```html
 <vue-section-scroller :sections="sections"></vue-section-scroller>
